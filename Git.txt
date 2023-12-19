@@ -62,8 +62,6 @@ putting commit/finalizing version of code
 pushing code to github
 ---> git push
 
-
-
 upstream means local to remote and vice versa
 --> git push --set-upstream origin main
 
@@ -75,7 +73,7 @@ git commit -m "mes"
 git push
 
 
-
+----------By pravin ------------
 
 
 
