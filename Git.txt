@@ -1,0 +1,82 @@
+code tha tyou want to share, backup, deploy, amintain a version of it. all of this is possible through a software or tool like git.
+
+------------------------
+Git is officially defined as a distributed version control system (VCS).
+--------------------
+
+git -- tool or software
+github -- a platform where we can use git
+
+----repository --- 
+2 types - local and remote
+
+
+
+
+commands
+-------------------
+check for git version
+
+---- > git --version
+
+HOw to initialize a git repo, how to enable git
+
+----> git init
+
+how to make a new branch
+
+----> git branch <branch-name>
+
+how to the branches
+
+---> git branch
+
+how to switch to different branch
+
+---> git switch <branch-name>
+
+checkout combine branch creation and swithching
+
+---> git checkout -b "new"
+
+
+
+How to put code onto github
+-----------------------------
+
+1) Tracking of files (knowing which file to track/put onto github>
+2) Finalizing when/which version of code to put
+3) Actually putting in the code
+
+Tracking /knowing which file to put
+---> git add <file1> <file2>
+
+for tracking everything
+---> git add .
+
+putting commit/finalizing version of code
+---> git commit -m "mes"
+
+---> git remote add origin <repo add from github>
+
+pushing code to github
+---> git push
+
+
+
+upstream means local to remote and vice versa
+--> git push --set-upstream origin main
+
+
+
+further
+git add .
+git commit -m "mes"
+git push
+
+
+
+
+
+
+
