@@ -76,5 +76,12 @@ git push
 ----------By pravin ------------
 
 
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <repository-url>
+git branch -M main  # If you're using a different branch name, change 'main' accordingly
+git push -u origin main  # Push to the main branch
+
 
 
